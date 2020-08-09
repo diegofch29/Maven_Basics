@@ -19,7 +19,7 @@ En este repositorio se exploran algunas caracteristicas de maven.
  ## Dependency Management
   En el repositorio se puede ver que se copio la clase fileSpy que revisa un directorio hasta que un archivo es creado con .text.xsv y en la imagen se evidencia que se  modifico el POM para incluir el plugin y la libreria Tika.
   
-  [tika+plugin](/Imagenes/Screenshot%20from%202020-08-09%2015-42-50.png)
+  [!tika+plugin](/Imagenes/Screenshot%20from%202020-08-09%2015-42-50.png)
   
  ## Lifecycles and Plugins
  ### lifecycles
@@ -29,12 +29,12 @@ En este repositorio se exploran algunas caracteristicas de maven.
  
 ### Phases
  * Compile -> Compila el codigo del proyecto
-  [compile](/Imagenes/Screenshot%20from%202020-08-09%2016-15-48.png)
+  ![compile](/Imagenes/Screenshot%20from%202020-08-09%2016-15-48.png)
  * Package -> Compila el codigo del proyecto entre un formato que se pueda distribuir (Empaqueta,jar,war, etc.).
-  [compile](/Imagenes/Screenshot%20from%202020-08-09%2016-21-11.png)
+  ![package](/Imagenes/Screenshot%20from%202020-08-09%2016-21-11.png)
  * Install -> Instala el proyecto en un repositorio local.
-  [compile](/Imagenes/Screenshot%20from%202020-08-09%2016-21-27.png)
+  ![install](/Imagenes/Screenshot%20from%202020-08-09%2016-21-27.png)
  * Another-maven-Project
-  [compile](/Imagenes/Screenshot%20from%202020-08-09%2016-28-54.png)
+  ![Creando another](/Imagenes/Screenshot%20from%202020-08-09%2016-28-54.png)
  * Usando mvn exec:java -Dexec.mainClass="edu.eci.FileSpy"
-  [compile](/Imagenes/Screenshot%20from%202020-08-09%2016-30-43.png)
+  ![usando exec](/Imagenes/Screenshot%20from%202020-08-09%2016-30-43.png)
